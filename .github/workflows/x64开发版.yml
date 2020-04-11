@@ -9,10 +9,10 @@ on:
 #      - master
 #    paths:
 #      - 'x64开发版.config'
-  schedule:
-    - cron: 30 19 * * *
-#  watch:
-#    types: started
+#  schedule:
+#    - cron: 30 19 * * *
+  watch:
+    types: started
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
